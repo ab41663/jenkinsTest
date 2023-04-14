@@ -10,4 +10,9 @@ public class testCon {
 	public String sayHello() {
 		return "hello world";
 	}
+	
+	@GetMapping("/test1")
+	public String sayHello() {
+		return "hello world";
+	}
 }
